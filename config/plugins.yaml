@@ -20,7 +20,8 @@ global:
     - "U1234567890"  # 例: 運営メンバー1
     - "U0987654321"  # 例: 運営メンバー2
   
-  general_channel: "C1234567890"
+  general_channel: "C093DQZS57S"  # テストチャンネル
+  moderator_channel: "C093DQZS57S"  # テストチャンネル（モデレーター通知用）
   
   excluded_channels:
-    - "C9999999999"  # 例: テストチャンネル
+    - "C9999999999"  # 例: 除外チャンネル

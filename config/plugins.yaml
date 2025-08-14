@@ -9,6 +9,11 @@ plugins:
     enabled: true
     description: "運営チャンネルの投稿を監視"
     priority: 2
+    
+  url_spam_detection:
+    enabled: true
+    description: "複数URLや怪しいドメインのスパムを検出"
+    priority: 3
 
 global:
   admin_users:

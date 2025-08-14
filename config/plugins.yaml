@@ -1,0 +1,21 @@
+
+plugins:
+  defamatory_detection:
+    enabled: true
+    description: "誹謗中傷的な投稿を検出して警告"
+    priority: 1
+    
+  admin_channel_guard:
+    enabled: true
+    description: "運営チャンネルの投稿を監視"
+    priority: 2
+
+global:
+  admin_users:
+    - "U1234567890"  # 例: 運営メンバー1
+    - "U0987654321"  # 例: 運営メンバー2
+  
+  general_channel: "C1234567890"
+  
+  excluded_channels:
+    - "C9999999999"  # 例: テストチャンネル
